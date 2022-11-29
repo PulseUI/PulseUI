@@ -11,7 +11,7 @@ async function nav() {
 }
 
 function ripple() {
-  const buttons = document.querySelectorAll('.btn:not(.btn:disabled)')
+  const buttons = document.querySelectorAll('.btn:not(.btn:disabled), .ripple')
 
   for (const button of buttons) {
     pulse(button)
